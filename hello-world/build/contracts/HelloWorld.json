@@ -12,7 +12,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -25,7 +26,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"helloWorld\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"message\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"The name of the author\",\"details\":\"Explain to a developer any extra details\",\"kind\":\"dev\",\"methods\":{},\"title\":\"A title that should describe the contract/interface\",\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"Explain to an end user what this does\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/HelloWorld.sol\":\"HelloWorld\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/HelloWorld.sol\":{\"keccak256\":\"0x3b9bc198c9c339980f2f437abb8a896463d44092edca5a74ff53c0bfcf141de2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d98604981e8359b8305c43910c61105a64d4d5379083d21e26cfe053943aeae0\",\"dweb:/ipfs/QmdBE476V3AYeENem3me1XiomgqYUu2SjBxs1UKkgAK5mM\"]}},\"version\":1}",
@@ -3137,9 +3139,29 @@
     "name": "solc",
     "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xF2efabFB8BE4b5261C1AD880c1026Fe1e735C055",
+      "transactionHash": "0x16538e39ae66a734d87baa1d782e0eef3ef2334e29370fb5d9b54d3ffb76968d"
+    },
+    "1685156598190": {
+      "events": {},
+      "links": {},
+      "address": "0xe931Bba8C647Cf7C09DD52D4994f6292f9888d14",
+      "transactionHash": "0x797efb83c160ec3c0ebd97c09fceff7808d43a2582999d14db34e9162d0bd111"
+    },
+    "1685157781465": {
+      "events": {},
+      "links": {},
+      "address": "0x95faDE23E354752FCF193d8b3192ca77bDFD6795",
+      "transactionHash": "0xda1222e4097506bb4713098f00c885f93b9851f8e68dd15cd050e8345fa43443"
+    }
+  },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-05-27T02:39:26.581Z",
+  "updatedAt": "2023-05-27T04:11:11.811Z",
+  "networkType": "ethereum",
   "devdoc": {
     "author": "The name of the author",
     "details": "Explain to a developer any extra details",
