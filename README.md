@@ -12,3 +12,5 @@ Comandos ->
     $truffle compile
     $truffle test
     
+    $npm install ethereum/web3.js
+    $npm install --save web3

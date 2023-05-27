@@ -73,4 +73,4 @@ contract('StoreCustomers', function(accounts) {
 
     });
 
-});
+}); 
