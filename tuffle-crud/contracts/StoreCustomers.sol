@@ -29,6 +29,14 @@ contract StoreCustomers {
         return customers[id];
     }
 
+    function getAllCustomers() public view returns (Customer[] memory) {
+        Customer[] memory result = new Customer[](count);
+        for (uint32 i = 1; i <= count; i++) {
+            result[i - 1] = customers[i];
+        }
+        return result;
+    }
+
     function updateCustomer(uint32 id, Customer memory customer) public {
         customers[id] = customer;
     }

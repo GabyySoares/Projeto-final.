@@ -73,4 +73,31 @@ contract('StoreCustomers', function(accounts) {
 
     });
 
+    it('Should get all customers', async () => {
+        await contract.addCustomer({
+            name : "John Doe",
+            email: "joe@mail.com",
+            phone: "55 999999999",
+            age: 23
+        })
+        await contract.addCustomer({
+            name : "Mario Brothers",
+            email: "mario@mail.com",
+            phone: "55 999999999",
+            age: 35
+        })
+        await contract.addCustomer({
+            name : "Luigi Bros",
+            email: "luigi@mail.com",
+            phone: "55 999999999",
+            age: 27
+        })
+
+        const response = await contract.getAllCustomers();
+        assert(response.length === 3, "Customer was not added");
+        assert(response[0].name === "John Doe", "Customer was not added");
+        assert(response[1].name === "Mario Brothers", "Customer was not added");
+        assert(response[2].name === "Luigi Bros", "Customer was not added");
+    });
+
 }); 

@@ -4,12 +4,10 @@ import './index.css';
 import App from './Components/App/App';
 import CreateContract from './Components/CreateContract/CreateContract';
 import reportWebVitals from './reportWebVitals';
-import HeaderBy from './Components/HeaderBy/HeaderBy';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HeaderBy />
     <CreateContract />
     <App />
   </React.StrictMode>
