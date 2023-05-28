@@ -6,11 +6,15 @@ Iniciando Projeto
 Criei uma pasta para o projeto Hello-world em Solidity
 
 Comandos -> 
+
     $npm install -g truffle
     $truffle unbox
-    //
+
     $truffle compile
     $truffle test
+    $truffle migrate
     
     $npm install ethereum/web3.js
     $npm install --save web3
+    
+    $npm start
