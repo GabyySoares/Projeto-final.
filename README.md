@@ -6,9 +6,10 @@ Iniciando Projeto
 Criei uma pasta para o projeto Hello-world em Solidity
 
 Comandos -> 
+
     $npm install -g truffle
     $truffle unbox
-    //
+
     $truffle compile
     $truffle test
     
