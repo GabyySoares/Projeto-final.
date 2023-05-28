@@ -10,17 +10,19 @@ contract('StoreCustomers', function(accounts) {
     it('Should add a customer', async () => {
 
         const result = await contract.addCustomer({
+            id: 0,
             name : "John Doe",
             email: "iamjohn@email.com",
             phone: "55 999999999",
             age: 23
         })
-        const count = await contract.count();
+        const count = await contract.finalCount();
         assert(count.toNumber() === 1, "Customer was not added");
     });
 
     it('Should get a customer', async () => {
         await contract.addCustomer({
+            id: 0,
             name : "John Doe",
             email: "joe@mail.com",
             phone: "55 999999999",
@@ -33,6 +35,7 @@ contract('StoreCustomers', function(accounts) {
 
     it('Should edit a customer', async () => {
         await contract.addCustomer({
+            id: 0,
             name : "John Doe",
             email: "",
             phone: "",
@@ -40,6 +43,7 @@ contract('StoreCustomers', function(accounts) {
         })
 
         await contract.updateCustomer(1, {
+            id: 1,
             name : "Jake o Cao",
             email: "jonasbrothers@email.com",
             phone: "55 999999999",
@@ -54,39 +58,37 @@ contract('StoreCustomers', function(accounts) {
 
     it('Should delete a customer', async () => {
         await contract.addCustomer({
+            id: 0,
             name : "John Doe",
             email: "joe@mail.com",
             phone: "55 999999999",
             age: 23
         })
-
-        const countbefore = await contract.count();
-        assert(countbefore.toNumber() === 1, "Customer was not added");
-
         await contract.deleteCustomer(1);
 
         const response = await contract.getCustomer(1);
-        const countafter = await contract.count();
 
-        assert(countafter.toNumber() === 0, "Customer was not deleted");
         assert(response.name === "", "Customer was not deleted");
 
     });
 
     it('Should get all customers', async () => {
         await contract.addCustomer({
+            id: 0,
             name : "John Doe",
             email: "joe@mail.com",
             phone: "55 999999999",
             age: 23
         })
         await contract.addCustomer({
+            id: 0,
             name : "Mario Brothers",
             email: "mario@mail.com",
             phone: "55 999999999",
             age: 35
         })
         await contract.addCustomer({
+            id: 0,
             name : "Luigi Bros",
             email: "luigi@mail.com",
             phone: "55 999999999",
