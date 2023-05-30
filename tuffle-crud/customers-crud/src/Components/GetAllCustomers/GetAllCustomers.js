@@ -2,19 +2,11 @@ import "./GetAllCustomers.css";
 import React, { useState } from "react";
 import Web3 from "web3";
 import NavBar from "../../NavBar";
-import { abi, myWallet, myPrvKey, contractAddress, ipBlockChain } from "../constants.js";
+import { abi, myWallet, myPrvKey, contractAddress, ipBlockChain ,useCustomerState} from "../constants.js";
 
 function GetAllCustomers() {
-  const [id, setId] = useState(0);
+  const { id, setId, name, setNome, email, setEmail, phone, setTelefone, age, setIdade, customers, setCustomers, web3 } = useCustomerState();
 
-  const [name, setNome] = useState('');
-  const [email, setEmail] = useState('');
-  const [phone, setTelefone] = useState('');
-  const [age, setIdade] = useState('');
-
-  const [customers, setCustomers] = useState([]);
-
-  const web3 = new Web3(ipBlockChain);
 
   async function getAllCustomers() {
     console.log("Iniciando -> getAllCustomers");
