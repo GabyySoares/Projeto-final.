@@ -5,12 +5,15 @@ import NavBar from "../../NavBar";
 import { abi, myWallet, myPrvKey, contractAddress, ipBlockChain, useCustomerState } from "../constants.js";
 
 function CreateCustomer() {
-  const { id, setId, name, setNome, email, setEmail, phone, setTelefone, age, setIdade, customers, setCustomers, web3 } = useCustomerState();
+  const { id, setId, name, setNome, email, setEmail, phone, setTelefone, age, setIdade, customers, setCustomers } = useCustomerState();
+
+  const web3 = new Web3(ipBlockChain);
 
   async function createCustomer() {
     console.log("Iniciando -> createCustomer");
     // Cria um novo objeto cliente com os dados do formulário
     let contrato = new web3.eth.Contract(abi, contractAddress);
+    await contrato.methods.addCustomer({ id, name, email, phone, age }).send({ from: myWallet, gas: 3000000 });
     setId('')
     setNome('');
     setEmail('');

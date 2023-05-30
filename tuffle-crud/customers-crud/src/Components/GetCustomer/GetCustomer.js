@@ -5,8 +5,9 @@ import NavBar from "../../NavBar";
 import { abi, myWallet, myPrvKey, contractAddress, ipBlockChain, useCustomerState } from "../constants.js";
 
 function GetCustomer() {
-  const { id, setId, name, setNome, email, setEmail, phone, setTelefone, age, setIdade, customers, setCustomers, web3 } = useCustomerState();
+  const { id, setId, name, setNome, email, setEmail, phone, setTelefone, age, setIdade, customers, setCustomers } = useCustomerState();
 
+  const web3 = new Web3(ipBlockChain);
 
   async function getCustomer() {
     console.log("Iniciando -> getCustomer");

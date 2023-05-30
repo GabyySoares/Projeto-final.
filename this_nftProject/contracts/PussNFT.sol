@@ -17,8 +17,15 @@ contract PussNFT is ERC721 {
 	constructor() ERC721("PussNFT","PUSSNFT"){
 		admin = msg.sender;
 
+		
 		mint(0,"Tinoca");
 		mint(1,"Frajolis");
+	}
+
+
+	function mint(uint8 number, string memory title) internal {
+		id_to_number[number] = Metadata(number,title);
+		_safeMint(admin, number);
 	}
 
 	function _baseURI() override internal view virtual returns (string memory) {
@@ -27,11 +34,6 @@ contract PussNFT is ERC721 {
 
 	function contractURI() public pure returns (string memory) {
 		return "https://acrianft.us.aldryn.io/contract";
-	}
-
-	function mint(uint8 number, string memory title) internal {
-		id_to_number[number] = Metadata(number,title);
-		_safeMint(admin, number);
 	}
 	 
 	function claim(uint8 number) external {
