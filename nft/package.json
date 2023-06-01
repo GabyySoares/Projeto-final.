@@ -1,9 +1,0 @@
-{
-  "dependencies": {
-    "@nomiclabs/hardhat-ethers": "^2.2.3",
-    "@openzeppelin/contracts": "^4.9.0",
-    "dotenv": "^16.1.2",
-    "hardhat": "^2.14.1",
-    "nft.storage": "^7.1.0"
-  }
-}
