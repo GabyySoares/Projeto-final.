@@ -18,3 +18,8 @@ Comandos ->
     $npm install react-router-dom
 
     $npm start
+
+    //para fazer o deploy dos nfts dos Gatos
+    $node .\store-asset.mjs
+
+    Contrato implantado no endereço: 0xA1c43802E433CeA20Bd72befEeFa148C56f1975F
