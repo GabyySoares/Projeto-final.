@@ -1,5 +1,5 @@
-# trabalho-final
-Trabalho final do Programa de Bolsas Compass
+## trabalho-final
+# Trabalho final do Programa de Bolsas Compass
 
 Título: "EduCollect: Capacitando as conquistas dos alunos com NFTs"
 Conceito:
