@@ -17,4 +17,6 @@ Você precisara ter esses aplicativos estalados.
 
 -Vscode.
 -Node.js
+ Node.js: [Install Node.js](https://nodejs.org/)
+ [install Ganache](https://trufflesuite.com/ganache/)
 // Para dar continuidade 
