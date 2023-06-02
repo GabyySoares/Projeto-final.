@@ -15,5 +15,6 @@ Benefícios:
 2. Credenciais verificáveis: os crachás NFT no blockchain oferecem um método confiável e verificável para empregadores, universidades ou outras instituições validarem as realizações de um aluno. A transparência da tecnologia blockchain aumenta a confiança e reduz a necessidade de verificação manual.
 3. Engajamento e Motivação: Ao gamificar o reconhecimento das conquistas, o EduCollect incentiva o engajamento e a motivação dos alunos. Coletar distintivos NFT e construir um portfólio abrangente torna-se uma jornada emocionante, inspirando os alunos a buscar o crescimento pessoal e alcançar novos marcos.
 4. Credenciais à prova de futuro: À medida que a tecnologia blockchain continua a evoluir, os crachás NFT coletados no EduCollect podem se adaptar a padrões emergentes ou estruturas de interoperabilidade. Isso garante que as credenciais digitais dos alunos permaneçam relevantes e compatíveis com futuros ecossistemas educacionais e profissionais.
-
+## Tecnologias utilizadas
+- 
 // Para dar continuidade 
