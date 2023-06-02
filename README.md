@@ -14,6 +14,7 @@ EduCollect é uma plataforma educacional que utiliza a tecnologia blockchain e N
 
 ## Testando a aplicação
 Você precisara ter esses aplicativos estalados.
+
 -Vscode.
 -Node.js
 // Para dar continuidade 
