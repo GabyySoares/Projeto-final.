@@ -1,6 +1,39 @@
-# NOMETRABALHO
 
-## DESCRICAO
+
+## DESCRICAO da Ideia
+Bem-vindo ao EDU, a plataforma educacional  revolucionária criada especialmente para estudantes e recém-formados em tecnologia. Aqui, você pode compartilhar seus projetos, interagir com outros estudantes e ganhar TOKENS valiosos a cada meta cumprida.
+No EDU, a busca pelo conhecimento é recompensada! À medida que você avança e conquista novos desafios, acumula pontos e sobe de nível. Cada nível alcançado é uma conquista que merece ser celebrada e reconhecida.
+Mas as recompensas não param por aí. A cada nível alcançado, o EDU oferece uma NFT (Token Não Fungível) personalizada, que é um símbolo exclusivo do seu progresso e sucesso. Além disso, você terá acesso a uma série de benefícios exclusivos, como revisão de currículo, mentoria com profissionais experientes, cursos especializados, cupons de desconto e muito mais!
+Imagine a sensação de ter um currículo impecável, com orientação personalizada de especialistas na área, e a oportunidade de expandir seus conhecimentos através de cursos especializados. No EDU, estamos comprometidos em impulsionar o seu crescimento profissional e garantir que você se destaque na multidão.
+Aprender e compartilhar projetos com outros estudantes também é uma parte fundamental da experiência no EDU. Nossa comunidade vibrante e engajada está pronta para colaborar, trocar ideias e oferecer suporte mútuo. Juntos, podemos construir um ecossistema de aprendizado inspirador, onde o conhecimento é valorizado e recompensado.
+Não espere mais para começar a sua jornada no EDU. Inscreva-se agora mesmo e comece a trilhar o caminho para o sucesso na área de tecnologia. Seja reconhecido, aprenda com os melhores e abra portas para um futuro brilhante.
+EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Para mostrar demonstrar todo conhecimento prévio, apenas revisando todos os antigos commits, pois foi muito aprendizado, e no fim, foi todo aplicado em apenas um projeto.
 
