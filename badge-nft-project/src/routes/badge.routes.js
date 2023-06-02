@@ -10,7 +10,8 @@ badgeRouter.use(
     badgeRouter.post('/', badgeController.createBadge),
     badgeRouter.put('/:id', badgeController.updateBadge),
     badgeRouter.delete('/:id', badgeController.deleteBadge),
-    badgeRouter.get('/owner/:badgeId', badgeController.getBadgeOwner)
+    badgeRouter.get('/owner/:badgeId', badgeController.getBadgeOwner),
+    badgeRouter.post('/badge/baseUrl', badgeController.setBaseUrl)
 );
 
 module.exports = {

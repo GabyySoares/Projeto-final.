@@ -1,70 +1,108 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.12;
 
-import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract EduCollectNFT is ERC721 {
-    struct Badge {
-        uint256 id;
-        string name;
-        string description;
-        string imageUrl;
+
+contract EduCollectNFT is ERC721URIStorage, Ownable {
+
+    using Counters for Counters.Counter;
+    Counters.Counter private _tokenIds;
+
+    using Strings for uint256;
+    mapping (uint256 => string) private _tokenURIs;
+
+    string private _baseURIextended;
+
+    mapping(uint256 => string) private _badgeNames;
+    mapping(uint256 => string) private _badgeDescriptions;
+    mapping(uint256 => address) private _ownerAddresses;
+
+    //caso exista uma api, ele adicionaria o baseurl dela
+    function setBaseURI(string memory baseURI_) external onlyOwner() {
+        _baseURIextended = baseURI_;
+    }
+    //funcao que altera apenas a imagem de algum badge
+    function _setTokenURI(uint256 tokenId, string memory _tokenURI) internal virtual override {
+        require(_exists(tokenId), "ERC721Metadata: URI set of nonexistent token");
+        _tokenURIs[tokenId] = _tokenURI;
+    }
+    //funcao que seta a baseURL, caso fosse uma api/{id} por exemplo
+    function _baseURI() internal view virtual override returns (string memory) {
+        return _baseURIextended;
     }
 
-    Badge[] public badges;
-    mapping(uint256 => address) private badgeOwners;
+    //funcao que retorna a imagem em si para o metamask
+    function tokenURI(uint256 tokenId) public view virtual override returns (string memory) {
+        require(_exists(tokenId), "ERC721Metadata: URI query for nonexistent token");
+        string memory _tokenURI = _tokenURIs[tokenId];
+        string memory base = _baseURI();
+    
+        if (bytes(base).length == 0) {
+            return _tokenURI;
+        }
+        if (bytes(_tokenURI).length > 0) {
+            return string(abi.encodePacked(base, _tokenURI));
+        }
+        return string(abi.encodePacked(base, tokenId.toString()));
+    }
 
     constructor() ERC721("EduCollectNFT", "EDUC") {}
 
     //mintar o badge ( contruir ele / criar ele)
-    function mintBadge(
+    function createBadge(
         address recipient,
         string memory name,
         string memory description,
-        string memory imageUrl
+        string memory metadados
     ) external returns (uint256) {
-        uint256 badgeId = badges.length;
-        Badge memory newBadge = Badge(badgeId, name, description, imageUrl);
-        badges.push(newBadge);
 
-        _mint(recipient, badgeId);
-        badgeOwners[badgeId] = recipient;
+        _tokenIds.increment();
+        uint256 newItemId = _tokenIds.current();
+        _mint(recipient, newItemId);
+        _ownerAddresses[newItemId] = recipient;
+        _badgeNames[newItemId] = name;
+        _badgeDescriptions[newItemId] = description;
+        _setTokenURI(newItemId, metadados);
 
-        return badgeId;
+        return newItemId;
     }
 
     //pegar o badge pelo id
-    function getBadgeById(uint256 badgeId)
-        external
-        view
-        returns (
+    function getBadgeById(uint256 badgeId) external view returns (
             uint256 id,
             string memory name,
             string memory description,
-            string memory imageUrl
+            string memory metadados
         )
     {
         require(_exists(badgeId), "Badge does not exist");
-        Badge memory badge = badges[badgeId];
-        return (badge.id, badge.name, badge.description, badge.imageUrl);
+
+        return (badgeId, _badgeNames[badgeId], _badgeDescriptions[badgeId], tokenURI(badgeId));
     }
 
-    //Nao funcional, falta rever a logica, porque o id comeca no 0 e nao no 1
+    struct Badge {
+        uint id;
+        address owner;
+        string name;
+        string description;
+        string metadata;
+        }
+
+    //Pegar todos os badges existentes.
     function getAllBadges() external view returns (Badge[] memory) {
-        uint32 counter = 0;
-        for (uint32 i = 0; i < badges.length ; i++) {
-            if (badges[i].id != 0) {
-                counter++;
+        uint256 totalBadges = _tokenIds.current();
+        uint256 index = 0;
+        Badge[] memory badges = new Badge[](totalBadges);
+        for (uint256 i = 0; i < totalBadges; i++) {
+            if (_exists(i)) {
+                badges[index] = Badge(i, _ownerAddresses[i], _badgeNames[i], _badgeDescriptions[i], tokenURI(i));
+                index++;
             }
         }
-        Badge[] memory result = new Badge[](counter);
-        uint32 counterTwo = 0;
-        for (uint32 i = 0; i < badges.length; i++) {
-            if (badges[i].id != 0) {
-                result[counterTwo++] = badges[i];
-            }
-        }
-        return result;
+        return badges;
     }
 
     //atualizar o badge pelo id
@@ -72,24 +110,24 @@ contract EduCollectNFT is ERC721 {
         uint256 badgeId,
         string memory name,
         string memory description,
-        string memory imageUrl
-    ) external {
+        string memory metadata
+    ) external returns (Badge memory){
         require(_exists(badgeId), "Badge does not exist");
-        Badge storage badge = badges[badgeId];
-        badge.name = name;
-        badge.description = description;
-        badge.imageUrl = imageUrl;
+        _badgeNames[badgeId] = name;
+        _badgeDescriptions[badgeId] = description;
+        _setTokenURI(badgeId, metadata);
+        return Badge(badgeId,_ownerAddresses[badgeId], name, description, metadata);
     }
 
     //deletar o badge pelo id
     function deleteBadgeById(uint256 badgeId) external {
         require(_exists(badgeId), "Badge does not exist");
-        delete badges[badgeId];
+        _burn(badgeId);
     }
 
     //pegar o dono do badge pelo id
     function getBadgeOwner(uint256 badgeId) external view returns (address) {
-        return badgeOwners[badgeId];
+        return _ownerAddresses[badgeId];
     }
 
     //pegar o metadata do badge pelo id
@@ -97,16 +135,10 @@ contract EduCollectNFT is ERC721 {
         external
         view
         returns (
-            string memory name,
-            string memory description,
-            string memory imageUrl
+            string memory metadata
         )
     {
         require(_exists(badgeId), "Badge does not exist");
-        Badge memory badge = badges[badgeId];
-        return (badge.name, badge.description, badge.imageUrl);
+        return _tokenURIs[badgeId];
     }
 }
-
-
-
