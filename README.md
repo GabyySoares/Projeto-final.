@@ -101,18 +101,23 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
 Para mostrar demonstrar todo conhecimento prévio, apenas revisando todos os antigos commits, pois foi muito aprendizado, e no fim, foi todo aplicado em apenas um projeto.
 
 
-Tecnologias Utilizadas: <br>
-    - HTML <br>
-    - CSS <br>
-    - Javascript <br>
-    - Solidity <br>
-    - ReactJS <br>
+Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
 
-Para utilizarmos nossa aplicação, é necessário ter no computador: <br>
-    - NodeJS <br>
-    - Ganache ( Blockchain local ) <br>
-    - Metamask ( Extensão do navegador ) <br> 
-    - Hardhat ( Framework para desenvolvimento de smart contracts ) <br>
+HTML: Utilizado para estruturar o conteúdo e os elementos da aplicação web.
+CSS: Utilizado para estilizar e dar vida à interface do EDU, tornando-a atraente e intuitiva para os usuários.
+JavaScript: Utilizado para adicionar funcionalidades interativas, manipular dados e tornar a experiência do usuário mais dinâmica.
+Solidity: Utilizado para desenvolver contratos inteligentes na blockchain, permitindo a interação com tokens e a execução de transações seguras e confiáveis.
+ReactJS: Utilizado como framework para construção do front-end, possibilitando a criação de componentes reutilizáveis e uma interface mais escalável.
+
+Antes de utilizar nossa aplicação, certifique-se de ter as seguintes ferramentas instaladas em seu computador:
+
+Node.js: Ambiente de execução JavaScript utilizado para rodar a aplicação e suas dependências.
+Ganache: Uma blockchain local que simula o funcionamento de uma rede Ethereum, permitindo o desenvolvimento e teste de contratos inteligentes.
+Metamask: Extensão de navegador que atua como uma carteira digital e permite a interação com a blockchain Ethereum.
+Hardhat: Um framework para desenvolvimento de smart contracts que facilita a compilação, implantação e teste dos contratos na rede.
+
+
+
 
 ```shell
 Começando a testar a aplicação. 
@@ -152,3 +157,8 @@ Começando a testar a aplicação.
     - Agora voce pode baixar a colecao do postman e importar para fazer requisicoes.
     -
 ```
+Ao explorar este repositório, você terá acesso a uma série de commits antigos, que refletem o aprendizado e a evolução do projeto. Revisar esses commits proporcionará uma visão abrangente dos desafios enfrentados e das soluções encontradas ao longo do processo.
+Ficamos felizes em compartilhar esse trabalho consolidado e esperamos que seja uma inspiração para outros desenvolvedores. Sinta-se à vontade para explorar, aprender com o código e contribuir com novas ideias, sugestões e melhorias.
+Agradecemos por visitar nosso repositório do Projeto EDU - Demonstração de Conhecimento. Sua participação é valiosa para nós e estamos empolgados para ver como suas habilidades e conhecimentos se aplicarão neste projeto.
+Vamos juntos nessa jornada de aprendizado e aprimoramento contínuo. Divirta-se explorando o código e aproveite as possibilidades oferecidas pelo EDU!
+
