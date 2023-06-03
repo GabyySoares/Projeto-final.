@@ -19,8 +19,14 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
       |                |
      🎓             🚀
    Recém-Formados    Estudantes
-                      em Tecnologia
-                |
+                  
+                  em Tecnologia
+                
+                
+                
+                
+                
+                
                 |
        ---------------
       |               |
@@ -28,6 +34,9 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
   🏆  Meta Cumprida   🌟
      (Ganho de TOKENS) 
                 |
+                
+                
+                
                 |
        ---------------
       |               |
@@ -36,6 +45,9 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
  (Acúmulo e Níveis)  Conquistas
                 |
                 |
+                
+                
+                
        ---------------
       |               |
       |               |
@@ -43,12 +55,16 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
  (Personalizada)   Benefícios
                 |
                 |
+                
+                
        ---------------
       |               |
       |               |
   💼 Revisão       🎓
   de Currículo   Mentoria
                 |
+                
+                
                 |
        ---------------
       |               |
