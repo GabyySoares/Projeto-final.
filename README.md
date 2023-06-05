@@ -97,7 +97,7 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
 
 ![arquitetura do projeto](https://github.com/GabyySoares/Projeto-final./assets/97314635/a1bc13ff-6958-4980-9425-d2f23e196db2)
 
-Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
+## Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
 
 HTML: Utilizado para estruturar o conteúdo e os elementos da aplicação web.
 CSS: Utilizado para estilizar e dar vida à interface do EDU, tornando-a atraente e intuitiva para os usuários.
@@ -105,7 +105,7 @@ JavaScript: Utilizado para adicionar funcionalidades interativas, manipular dado
 Solidity: Utilizado para desenvolver contratos inteligentes na blockchain, permitindo a interação com tokens e a execução de transações seguras e confiáveis.
 ReactJS: Utilizado como framework para construção do front-end, possibilitando a criação de componentes reutilizáveis e uma interface mais escalável.
 
-Antes de utilizar nossa aplicação, certifique-se de ter as seguintes ferramentas instaladas em seu computador:
+## Antes de utilizar nossa aplicação, certifique-se de ter as seguintes ferramentas instaladas em seu computador:
 
 Node.js: Ambiente de execução JavaScript utilizado para rodar a aplicação e suas dependências.
 Ganache: Uma blockchain local que simula o funcionamento de uma rede Ethereum, permitindo o desenvolvimento e teste de contratos inteligentes.
@@ -153,7 +153,7 @@ Começando a testar a aplicação.
     - Agora voce pode baixar a colecao do postman e importar para fazer requisicoes.
     -
 ```
-Ao explorar este repositório, você terá acesso a uma série de commits antigos, que refletem o aprendizado e a evolução do projeto. Revisar esses commits proporcionará uma visão abrangente dos desafios enfrentados e das soluções encontradas ao longo do processo.
+#### Ao explorar este repositório, você terá acesso a uma série de commits antigos, que refletem o aprendizado e a evolução do projeto. Revisar esses commits proporcionará uma visão abrangente dos desafios enfrentados e das soluções encontradas ao longo do processo.
 Ficamos felizes em compartilhar esse trabalho consolidado e esperamos que seja uma inspiração para outros desenvolvedores. Sinta-se à vontade para explorar, aprender com o código e contribuir com novas ideias, sugestões e melhorias.
 Agradecemos por visitar nosso repositório do Projeto EDU - Demonstração de Conhecimento. Sua participação é valiosa para nós e estamos empolgados para ver como suas habilidades e conhecimentos se aplicarão neste projeto.
 Vamos juntos nessa jornada de aprendizado e aprimoramento contínuo. Divirta-se explorando o código e aproveite as possibilidades oferecidas pelo EDU!
