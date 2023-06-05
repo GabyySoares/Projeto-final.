@@ -7,12 +7,10 @@ Mas as recompensas não param por aí. A cada nível alcançado, o EDU oferece u
 Imagine a sensação de ter um currículo impecável, com orientação personalizada de especialistas na área, e a oportunidade de expandir seus conhecimentos através de cursos especializados. No EDU, estamos comprometidos em impulsionar o seu crescimento profissional e garantir que você se destaque na multidão.
 Aprender e compartilhar projetos com outros estudantes também é uma parte fundamental da experiência no EDU. Nossa comunidade vibrante e engajada está pronta para colaborar, trocar ideias e oferecer suporte mútuo. Juntos, podemos construir um ecossistema de aprendizado inspirador, onde o conhecimento é valorizado e recompensado.
 Não espere mais para começar a sua jornada no EDU. Inscreva-se agora mesmo e comece a trilhar o caminho para o sucesso na área de tecnologia. Seja reconhecido, aprenda com os melhores e abra portas para um futuro brilhante.
-
-
-##Apresentação do projeto : [Slides](https://docs.google.com/presentation/d/19Q6XQzn6g0WPEJQdSRgPYdDrNTDEHOXh/edit#slide=id.p1)
-
-
 EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
+
+## Apresentação do projeto : [Slides](https://docs.google.com/presentation/d/19Q6XQzn6g0WPEJQdSRgPYdDrNTDEHOXh/edit#slide=id.p1) 
+
      
      EDU - Plataforma Educacional
           
@@ -78,33 +76,13 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
   Especializados   Cupons
 
 
+# Arquitetura do projeto
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Para mostrar demonstrar todo conhecimento prévio, apenas revisando todos os antigos commits, pois foi muito aprendizado, e no fim, foi todo aplicado em apenas um projeto.
-
+![arquitetura do projeto](https://github.com/GabyySoares/Projeto-final./assets/97314635/a1bc13ff-6958-4980-9425-d2f23e196db2)
 
 Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
 
@@ -122,7 +100,7 @@ Metamask: Extensão de navegador que atua como uma carteira digital e permite a 
 Hardhat: Um framework para desenvolvimento de smart contracts que facilita a compilação, implantação e teste dos contratos na rede.
 
 
-
+## Testando a aplicação
 
 ```shell
 Começando a testar a aplicação. 
