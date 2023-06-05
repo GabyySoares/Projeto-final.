@@ -7,7 +7,11 @@ Mas as recompensas não param por aí. A cada nível alcançado, o EDU oferece u
 Imagine a sensação de ter um currículo impecável, com orientação personalizada de especialistas na área, e a oportunidade de expandir seus conhecimentos através de cursos especializados. No EDU, estamos comprometidos em impulsionar o seu crescimento profissional e garantir que você se destaque na multidão.
 Aprender e compartilhar projetos com outros estudantes também é uma parte fundamental da experiência no EDU. Nossa comunidade vibrante e engajada está pronta para colaborar, trocar ideias e oferecer suporte mútuo. Juntos, podemos construir um ecossistema de aprendizado inspirador, onde o conhecimento é valorizado e recompensado.
 Não espere mais para começar a sua jornada no EDU. Inscreva-se agora mesmo e comece a trilhar o caminho para o sucesso na área de tecnologia. Seja reconhecido, aprenda com os melhores e abra portas para um futuro brilhante.
-Apresentação da ideia:[slides](https://mail.google.com/mail/u/0/#inbox/FMfcgzGsmrDNXSSRPplLRKHMTcdWJPTm?projector=1&messagePartId=0.1.1)
+
+
+##Apresentação do projeto : [Slides](https://docs.google.com/presentation/d/19Q6XQzn6g0WPEJQdSRgPYdDrNTDEHOXh/edit#slide=id.p1)
+
+
 EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
      
      EDU - Plataforma Educacional
