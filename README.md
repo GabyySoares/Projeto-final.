@@ -1,4 +1,4 @@
-# Projeto final NFT 
+# Projeto final NFT  EDU - Plataforma Educacional
 
 
 ## Descrição do Projeto
@@ -11,83 +11,7 @@ Não espere mais para começar a sua jornada no EDU. Inscreva-se agora mesmo e c
 EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
 ## Apresentação do projeto : [Slides](https://docs.google.com/presentation/d/19Q6XQzn6g0WPEJQdSRgPYdDrNTDEHOXh/edit#slide=id.p1) 
   
-     EDU - Plataforma Educacional
-          
-                |
-                |   
-                |   
-       ----------------
-      |                |
-      |                |
-     🎓             🚀
-   Recém-Formados    Estudantes
-                  
-                  de Tecnologia
-                |
-                
-                |
-                
-                |
-                
-                |
-                
-                |
-       ---------------
-      |               |
-      |               |
-  🏆  Meta Cumprida   🌟
-     (Ganho de TOKENS) 
-                |
-                
-                |
-                
-                |
-                
-                |
-       ---------------
-      |               |
-      |               |
-   📈 Pontos        🎉
- (Acúmulo e Níveis)  Conquistas
-                |
-                
-                |
-                
-                |
-                
-                |
-       ---------------
-      |               |
-      |               |
-    🖼️ NFT          🎁
- (Personalizada)   Benefícios
-                |
-                
-                |
-                
-                |
-                
-                |
-                
-                |
-       ---------------
-      |               |
-      |               |
-  💼 Revisão       🎓
-  de Currículo   Mentoria
-                |
-                
-                | 
-                
-                |
-                
-                |
-       ---------------
-      |               |
-      |               |
-    📚 Cursos       💰
-  Especializados   Cupons
-
+    
 
 # Arquitetura do projeto
 
