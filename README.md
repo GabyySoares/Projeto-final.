@@ -16,22 +16,23 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
 # Arquitetura do projeto
 
 
-
-
-
 ![arquitetura do projeto](https://github.com/GabyySoares/Projeto-final./assets/97314635/a1bc13ff-6958-4980-9425-d2f23e196db2)
 
 ## Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
 
 HTML: Utilizado para estruturar o conteúdo e os elementos da aplicação web.
+
 CSS: Utilizado para estilizar e dar vida à interface do EDU, tornando-a atraente e intuitiva para os usuários.
+
 JavaScript: Utilizado para adicionar funcionalidades interativas, manipular dados e tornar a experiência do usuário mais dinâmica.
+
 Solidity: Utilizado para desenvolver contratos inteligentes na blockchain, permitindo a interação com tokens e a execução de transações seguras e confiáveis.
+
 ReactJS: Utilizado como framework para construção do front-end, possibilitando a criação de componentes reutilizáveis e uma interface mais escalável.
 
 ## Antes de utilizar nossa aplicação, certifique-se de ter as seguintes ferramentas instaladas em seu computador:
 
-Node.js: Ambiente de execução JavaScript utilizado para rodar a aplicação e suas dependências.
+Node.js: [Install Node.js](https://nodejs.org/) Ambiente de execução JavaScript utilizado para rodar a aplicação e suas dependências.
 
 Ganache: Uma blockchain local que simula o funcionamento de uma rede Ethereum, permitindo o desenvolvimento e teste de contratos inteligentes.
 
