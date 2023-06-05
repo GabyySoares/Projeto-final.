@@ -34,11 +34,11 @@ ReactJS: Utilizado como framework para construção do front-end, possibilitando
 
 Node.js: [Install Node.js](https://nodejs.org/) Ambiente de execução JavaScript utilizado para rodar a aplicação e suas dependências.
 
-Ganache: Uma blockchain local que simula o funcionamento de uma rede Ethereum, permitindo o desenvolvimento e teste de contratos inteligentes.
+Ganache: [Install Ganache](https://trufflesuite.com/ganache/) Uma blockchain local que simula o funcionamento de uma rede Ethereum, permitindo o desenvolvimento e teste de contratos inteligentes.
 
-Metamask: Extensão de navegador que atua como uma carteira digital e permite a interação com a blockchain Ethereum.
+Metamask: [Install Metamask] (https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) Extensão de navegador que atua como uma carteira digital e permite a interação com a blockchain Ethereum.
 
-Hardhat: Um framework para desenvolvimento de smart contracts que facilita a compilação, implantação e teste dos contratos na rede.
+Hardhat: [Install Hardhat} (https://hardhat.org/) Um framework para desenvolvimento de smart contracts que facilita a compilação, implantação e teste dos contratos na rede.
 
 
 ## Testando a aplicação
