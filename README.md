@@ -50,9 +50,11 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
    📈 Pontos        🎉
  (Acúmulo e Níveis)  Conquistas
                 |
+                
                 |
+                
                 |
-                |
+                
                 |
        ---------------
       |               |
@@ -60,9 +62,13 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
     🖼️ NFT          🎁
  (Personalizada)   Benefícios
                 |
+                
                 |
+                
                 |
+                
                 |
+                
                 |
        ---------------
       |               |
@@ -70,8 +76,11 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
   💼 Revisão       🎓
   de Currículo   Mentoria
                 |
+                
                 | 
+                
                 |
+                
                 |
        ---------------
       |               |
