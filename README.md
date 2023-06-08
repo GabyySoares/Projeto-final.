@@ -13,10 +13,7 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
   
     
 
-# Arquitetura do projeto
 
-
-![arquitetura do projeto](https://github.com/GabyySoares/Projeto-final./assets/97314635/a1bc13ff-6958-4980-9425-d2f23e196db2)
 
 ## Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
 
