@@ -17,12 +17,12 @@ EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
 
 ![Capturar](https://github.com/GabyySoares/Projeto-final./assets/97314635/87f9672a-9585-4ff6-b19f-fee7664fd407)
 
-## Buckets
+## Buckets Amazons3
 
   
 ![Capturar PNG3](https://github.com/GabyySoares/Projeto-final./assets/97314635/c24894c6-5386-4233-a234-45786083eaae)
 
-## EduCollectNFT Criada
+## EduCollectNFT Criada Metamask
 
 
 ![Capturar PNG2](https://github.com/GabyySoares/Projeto-final./assets/97314635/2ea150af-f555-449a-9961-13696e154d11)
