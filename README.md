@@ -27,6 +27,9 @@ Solidity: Utilizado para desenvolver contratos inteligentes na blockchain, permi
 
 ReactJS: Utilizado como framework para construção do front-end, possibilitando a criação de componentes reutilizáveis e uma interface mais escalável.
 
+AmazonS3: Fornece recursos de gerenciamento para que você possa otimizar, organizar e configurar o acesso aos seus dados para atender aos seus requisitos específicos de negócios, organizacionais e de compatibilidade.
+
+
 ## Antes de utilizar nossa aplicação, certifique-se de ter as seguintes ferramentas instaladas em seu computador:
 
 [Install Node.js](https://nodejs.org/) Ambiente de execução JavaScript utilizado para rodar a aplicação e suas dependências.
