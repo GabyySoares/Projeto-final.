@@ -10,10 +10,12 @@ Aprender e compartilhar projetos com outros estudantes também é uma parte fund
 Não espere mais para começar a sua jornada no EDU. Inscreva-se agora mesmo e comece a trilhar o caminho para o sucesso na área de tecnologia. Seja reconhecido, aprenda com os melhores e abra portas para um futuro brilhante.
 EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
 
-  
+##Arquitetura Proposta
+
     
 
 
+![Capturar](https://github.com/GabyySoares/Projeto-final./assets/97314635/87f9672a-9585-4ff6-b19f-fee7664fd407)
 
 ## Durante o desenvolvimento do Projeto EDU, foram utilizadas as seguintes tecnologias:
 
