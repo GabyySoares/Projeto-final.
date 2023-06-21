@@ -9,7 +9,7 @@ Imagine a sensação de ter um currículo impecável, com orientação personali
 Aprender e compartilhar projetos com outros estudantes também é uma parte fundamental da experiência no EDU. Nossa comunidade vibrante e engajada está pronta para colaborar, trocar ideias e oferecer suporte mútuo. Juntos, podemos construir um ecossistema de aprendizado inspirador, onde o conhecimento é valorizado e recompensado.
 Não espere mais para começar a sua jornada no EDU. Inscreva-se agora mesmo e comece a trilhar o caminho para o sucesso na área de tecnologia. Seja reconhecido, aprenda com os melhores e abra portas para um futuro brilhante.
 EDU - Aprendizado, Reconhecimento e Oportunidades Ilimitadas!
-## Apresentação do projeto : [Slides](https://docs.google.com/presentation/d/19Q6XQzn6g0WPEJQdSRgPYdDrNTDEHOXh/edit#slide=id.p1) 
+
   
     
 
