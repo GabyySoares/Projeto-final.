@@ -53,7 +53,8 @@ AmazonS3: Fornece recursos de gerenciamento para que você possa otimizar, organ
  [Install Hardhat](https://hardhat.org/) Um framework para desenvolvimento de smart contracts que facilita a compilação, implantação e teste dos contratos na rede.
 
 
-## Testando a aplicação
+## Testando a aplicação Localmente
+
 
 ```shell
 Começando a testar a aplicação. 
@@ -97,4 +98,5 @@ Começando a testar a aplicação.
 Ficamos felizes em compartilhar esse trabalho consolidado e esperamos que seja uma inspiração para outros desenvolvedores. Sinta-se à vontade para explorar, aprender com o código e contribuir com novas ideias, sugestões e melhorias.
 Agradecemos por visitar nosso repositório do Projeto EDU - Demonstração de Conhecimento. Sua participação é valiosa para nós e estamos empolgados para ver como suas habilidades e conhecimentos se aplicarão neste projeto.
 Vamos juntos nessa jornada de aprendizado e aprimoramento contínuo. Divirta-se explorando o código e aproveite as possibilidades oferecidas pelo EDU!
+
 
